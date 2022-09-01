@@ -1,2 +1,2 @@
-home
-away
+#! /bin/bash
+ls -l
