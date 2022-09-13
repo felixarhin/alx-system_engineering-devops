@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d f-name "*.js" -delete
+find . -tpe d -not -name '.' | wc -I
